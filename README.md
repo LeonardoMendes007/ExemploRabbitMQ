@@ -14,8 +14,7 @@ Passowrd: `guest`
 
 Restaurar os pacotes das aplicações
 
-`dotnet restore .\Producer\`
-`dotnet restore .\Consumer\`
+`dotnet restore Producer && dotnet restore Consumer`
 
 Executar o produtor e o Consumidor
 
